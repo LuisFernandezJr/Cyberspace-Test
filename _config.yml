@@ -11,25 +11,3 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-assets:
-  sources:
-    - assets/fonts
-    - assets/img
-    - assets/js
-    - assets/stylesheets
-
-# Build settings
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-
-gems:
-  - jekyll-feed
-  - jekyll-assets
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
-include: [_pages]
